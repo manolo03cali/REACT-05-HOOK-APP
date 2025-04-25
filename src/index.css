@@ -1,0 +1,27 @@
+body {
+  padding: 20px;
+}
+button {
+  margin-right: 10px;
+}
+a {
+  margin-right: 10px;
+}
+.header {
+  background-color: green;
+  color: white;
+  padding: 10px;
+
+  .title {
+    text-align: center;
+  }
+  .link-list {
+    display: flex;
+    justify-content: space-around;
+
+    .link {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
